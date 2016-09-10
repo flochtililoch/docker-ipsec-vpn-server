@@ -1,5 +1,7 @@
-FROM debian:stretch
-LABEL maintainer="Lin Song <linsongui@gmail.com>"
+FROM resin/rpi-raspbian
+MAINTAINER flochtililoch
+
+# Forked from https://github.com/hwdsl2/docker-ipsec-vpn-server
 
 ENV REFRESHED_AT 2018-06-05
 ENV SWAN_VER 3.22
